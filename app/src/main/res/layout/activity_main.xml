@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4">
+
+        <RelativeLayout
+            android:layout_width="358dp"
+            android:layout_height="88dp"
+            android:layout_columnSpan="4"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="0"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="1"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="3"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="5"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="6"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="7"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="8"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="9"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="10"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="11"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+            <TextView
+                android:id="@+id/tvID12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="12"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/border_shape">
+
+        </RelativeLayout>
+    </GridLayout>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:hint="Введите дату рождения"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etDate"/>
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:onClick="clickButton"
+        android:text="Расчитать результат" />
+
+</LinearLayout>
